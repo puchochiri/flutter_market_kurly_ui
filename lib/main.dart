@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:market_kurly_ui/routes.dart';
+import 'package:market_kurly_ui/screens/main_screens.dart';
 import 'package:market_kurly_ui/screens/splash/splash_screen.dart';
 import 'package:market_kurly_ui/theme.dart';
 
@@ -14,7 +15,8 @@ class MarketKurly extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Market kurly UI",
-      initialRoute: SplashScreen.routeName,
+      // initialRoute: SplashScreen.routeName,
+      initialRoute: MainScreens.routeName,
       routes: route,
       theme: theme(),
     );
